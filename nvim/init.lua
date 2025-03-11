@@ -3,6 +3,7 @@ require("config.alpha")
 vim.schedule(function()
 	require("config.mappings")
 end)
+
 --themes
 vim.cmd.colorscheme("nord")
 
